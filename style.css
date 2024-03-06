@@ -1,0 +1,83 @@
+body{
+    background: rgb(225, 211, 197);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bodyin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 750px;
+    margin: 100px 500px;
+    background: white;
+    border-radius: 40px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar img{
+    width: 650px;
+    margin: 50px 80px;
+    border-radius: 35px;
+}
+.content{
+    margin: 20px 50px;
+}
+.preptime{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgba(228, 163, 163, 0.239);
+    height: 180px;
+    width: 650px;
+    border-radius: 12px;
+}
+.preptime span{
+    color: black;
+}
+
+.ingrediants{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-left: -18px;
+}
+
+.ingrediants li{
+    color: rgb(158, 129, 101);
+}
+.ingrediants span{
+    color: black;
+}
+
+.instructions{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -10px;
+    margin-left: -18px;
+}
+.instructions li{
+    color: rgb(110, 62, 18);
+    font-weight: 700;  
+}
+.instructions span{
+    color: rgba(0, 0, 0, 0.851);
+    font-weight: 100;
+}
+.nutritions{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nutritions h3{
+    font-weight: 200;
+}
+.nutritions span{
+    font-weight: bold;
+    color: rgb(132, 77, 26);
+    font-size: larger;
+}
